@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cart - Our Online Store</title>
+    <link rel="stylesheet" href="cart.css"> <!-- Add your cart-specific CSS file if needed -->
+</head>
+<body>
+    <header>
+        <h1>Your Cart</h1>
+    </header>
+
+    <section class="cart-details">
+        <h2>Product Details</h2>
+        <p>Product: Product 1</p>
+        <p>Price: ₹299</p>
+
+        <!-- Add user details form here -->
+        <form action="order-confirmation.html" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" required></textarea><br><br>
+
+            <button type="submit">Place Order</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Our Online Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
