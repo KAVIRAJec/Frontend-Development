@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    <style>
+        body {
+
+            margin-top: 1rem;
+            width: 100%;
+            height: auto;
+        }
+        .container {
+            background-color: aqua;
+            margin: 1rem,1rem,1rem,1rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            width: 100%;
+            text-align: center;
+            
+        }
+        .main {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+        }
+        .list {
+            display: flex; 
+            list-style: none; 
+            padding: 1rem 1rem; 
+            width: 100%;
+        }
+        .list li {
+            margin-right: 15px; 
+            width: 100%;
+        }
+        .foot{
+            text-align: center;
+            padding: 2rem;
+            background-color: aquamarine;
+            
+        }
+        .cl{
+            background-color: brown;
+            height: 10rem;
+            width: 10rem;
+            margin: 10px;
+        }
+        .cl0{
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+        }
+        .cc{
+            background-color: brown;
+            height: 10rem;
+            width: 10rem;
+            margin: 10px;
+        }
+        .cl1{
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .cd{
+            background-color: brown;
+            height: 10rem;
+            width: 10rem;
+            margin: 10px;
+        }
+        .cd0{
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(3,200px);
+        }
+        .flex {
+            width: 90%;
+            height: auto;
+            border: 1rem solid;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+<header>
+    <div class="main">
+        <div class="container"><h1>Back</h1></div>
+        <nav style="background-color: antiquewhite;">
+            <ul class="list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">help</a></li>
+                <li><a href="#">contact</a></li>
+                <li><a href="#">about</a></li>
+            </ul>   
+        </nav>
+        <div class="container"><h1>Next</h1></div>  
+    </div>
+</header>
+<body>
+    <div class="cl0">
+    <div class="cl 1"></div>
+    <div class="cl 2"></div>
+    <div class="cl 3"></div>
+    <div class="cl 4"></div>
+    <div class="cl 5"></div>
+    <div class="cl 6"></div>
+</div>
+<div class="cl1">
+    <div class="cc 1"></div>
+    <div class="cc 2"></div>
+    <div class="cc 3"></div>
+    <div class="cc 4"></div>
+    <div class="cc 5"></div>
+    <div class="cc 6"></div>
+</div>
+<div class="cd0">
+    <div class="cd 1"></div>
+    <div class="cd 2"></div>
+    <div class="cd 3"></div>
+    <div class="cd 4"></div>
+    <div class="cd 5"></div>
+    <div class="cd 6"></div>
+</div>
+<div class="flex">
+    <p>Hello</p>
+</div>
+</body>
+<footer>
+    <div class="foot">copyright 2023</div>
+</footer>
+</body>
+</html>
